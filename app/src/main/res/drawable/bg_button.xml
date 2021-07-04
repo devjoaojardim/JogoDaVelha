@@ -1,0 +1,24 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white_efeito">
+    <item>
+        <layer-list>
+            <item android:right="5dp" android:top="5dp">
+                <shape>
+                    <corners android:radius="10dp" />
+                    <solid android:color="@color/white_efeito" />
+                </shape>
+            </item>
+            <item android:bottom="2dp" android:left="2dp">
+                <shape>
+                    <gradient android:angle="270"
+                        android:endColor="#171C26" android:startColor="#171C26" />
+                    <stroke android:width="2dp" android:color="@color/white_efeito" />
+                    <corners android:radius="10dp" />
+                    <padding android:bottom="10dp" android:left="10dp"
+                        android:right="10dp" android:top="10dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</ripple>
